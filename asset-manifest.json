@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/domine-autocad-reactapp/static/css/main.e66bc289.chunk.css",
+    "main.js": "/domine-autocad-reactapp/static/js/main.859e090c.chunk.js",
+    "main.js.map": "/domine-autocad-reactapp/static/js/main.859e090c.chunk.js.map",
+    "runtime-main.js": "/domine-autocad-reactapp/static/js/runtime-main.4084709f.js",
+    "runtime-main.js.map": "/domine-autocad-reactapp/static/js/runtime-main.4084709f.js.map",
+    "static/js/2.e683ec3f.chunk.js": "/domine-autocad-reactapp/static/js/2.e683ec3f.chunk.js",
+    "static/js/2.e683ec3f.chunk.js.map": "/domine-autocad-reactapp/static/js/2.e683ec3f.chunk.js.map",
+    "index.html": "/domine-autocad-reactapp/index.html",
+    "precache-manifest.4f17e95b0610fbbec0d2e47dddc389e2.js": "/domine-autocad-reactapp/precache-manifest.4f17e95b0610fbbec0d2e47dddc389e2.js",
+    "service-worker.js": "/domine-autocad-reactapp/service-worker.js",
+    "static/css/main.e66bc289.chunk.css.map": "/domine-autocad-reactapp/static/css/main.e66bc289.chunk.css.map",
+    "static/js/2.e683ec3f.chunk.js.LICENSE.txt": "/domine-autocad-reactapp/static/js/2.e683ec3f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4084709f.js",
+    "static/js/2.e683ec3f.chunk.js",
+    "static/css/main.e66bc289.chunk.css",
+    "static/js/main.859e090c.chunk.js"
+  ]
+}
