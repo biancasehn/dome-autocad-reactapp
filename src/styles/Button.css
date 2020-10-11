@@ -1,0 +1,33 @@
+.btn {
+    color:black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin: 1.2em auto;
+    background-color: #FEB472;
+    padding:0.5em 1.2em;
+    border-radius:.5em;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.03);
+  }
+
+  @media(max-width:630px) {
+    .btn {
+      font-size: 1.3em;
+    }
+  }
+
+  @media(max-width:500px) {
+    .btn {
+      font-size: 1.1em;
+    }
+  }
+
+  @media(max-width:375px) {
+    .btn {
+      font-size: 1em;
+    }
+  }
