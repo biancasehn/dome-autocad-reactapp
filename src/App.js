@@ -94,6 +94,10 @@ function App() {
             </a>
           </div>
         </footer>
+        <div className="privacy">
+            <span>dominandoAutoCAD</span>
+            <img alt="logo" src={logo} />
+        </div>
     </div>
   );
 }
