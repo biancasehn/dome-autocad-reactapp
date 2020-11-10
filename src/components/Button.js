@@ -4,7 +4,7 @@ import '../styles/Button.css'
 function Button(props) {
     return (
         <div className="btn">
-            <a href="https://www.hotmart.com/product/aprenda-como-dominar-o-autocad-em-2h-seja-capaz-de-criar-seus-proprios-modelos-e-nao-perca-mais-oportunidades/B40493819T">    
+            <a href="https://pay.hotmart.com/B40493819T?off=dv65ktmt&sck=HOTMART_PRODUCT_PAGE&bid=1605027137430">    
                 {props.text}
             </a>
         </div>
