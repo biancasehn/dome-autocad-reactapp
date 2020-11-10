@@ -24,7 +24,7 @@ function App() {
         </div>
 
         <div className="section description" style={{backgroundColor:"#cacaca", color:"#232323"}}>
-          <h4>Conheça o passo a passo para dominar o AutoCAD mesmo sem nunca ter usado antes. Comece a criar os seus próprios projetos e modelos ainda HOJE!</h4>
+          <h3>Conheça o passo a passo para dominar o AutoCAD mesmo sem nunca ter usado antes. Comece a criar os seus próprios projetos e modelos ainda HOJE!</h3>
           <img alt="casa" src={casa} />
         </div>
 
