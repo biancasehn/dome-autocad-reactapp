@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/domine-autocad-reactapp/static/css/main.d971629d.chunk.css",
-    "main.js": "/domine-autocad-reactapp/static/js/main.56f3ec99.chunk.js",
-    "main.js.map": "/domine-autocad-reactapp/static/js/main.56f3ec99.chunk.js.map",
+    "main.css": "/domine-autocad-reactapp/static/css/main.284cf389.chunk.css",
+    "main.js": "/domine-autocad-reactapp/static/js/main.a67acfff.chunk.js",
+    "main.js.map": "/domine-autocad-reactapp/static/js/main.a67acfff.chunk.js.map",
     "runtime-main.js": "/domine-autocad-reactapp/static/js/runtime-main.4084709f.js",
     "runtime-main.js.map": "/domine-autocad-reactapp/static/js/runtime-main.4084709f.js.map",
-    "static/js/2.e5dcf169.chunk.js": "/domine-autocad-reactapp/static/js/2.e5dcf169.chunk.js",
-    "static/js/2.e5dcf169.chunk.js.map": "/domine-autocad-reactapp/static/js/2.e5dcf169.chunk.js.map",
+    "static/js/2.80fd2d05.chunk.js": "/domine-autocad-reactapp/static/js/2.80fd2d05.chunk.js",
+    "static/js/2.80fd2d05.chunk.js.map": "/domine-autocad-reactapp/static/js/2.80fd2d05.chunk.js.map",
     "index.html": "/domine-autocad-reactapp/index.html",
-    "precache-manifest.f206bc6d642f022d4a18170b7fea0867.js": "/domine-autocad-reactapp/precache-manifest.f206bc6d642f022d4a18170b7fea0867.js",
+    "precache-manifest.24f71e933821d29dfdea0f8476270e99.js": "/domine-autocad-reactapp/precache-manifest.24f71e933821d29dfdea0f8476270e99.js",
     "service-worker.js": "/domine-autocad-reactapp/service-worker.js",
-    "static/css/main.d971629d.chunk.css.map": "/domine-autocad-reactapp/static/css/main.d971629d.chunk.css.map",
-    "static/js/2.e5dcf169.chunk.js.LICENSE.txt": "/domine-autocad-reactapp/static/js/2.e5dcf169.chunk.js.LICENSE.txt",
+    "static/css/main.284cf389.chunk.css.map": "/domine-autocad-reactapp/static/css/main.284cf389.chunk.css.map",
+    "static/js/2.80fd2d05.chunk.js.LICENSE.txt": "/domine-autocad-reactapp/static/js/2.80fd2d05.chunk.js.LICENSE.txt",
     "static/media/autodesk.jpeg": "/domine-autocad-reactapp/static/media/autodesk.b6242858.jpeg",
     "static/media/casa.png": "/domine-autocad-reactapp/static/media/casa.2b69fde3.png",
     "static/media/logo.png": "/domine-autocad-reactapp/static/media/logo.f3d465e0.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4084709f.js",
-    "static/js/2.e5dcf169.chunk.js",
-    "static/css/main.d971629d.chunk.css",
-    "static/js/main.56f3ec99.chunk.js"
+    "static/js/2.80fd2d05.chunk.js",
+    "static/css/main.284cf389.chunk.css",
+    "static/js/main.a67acfff.chunk.js"
   ]
 }
