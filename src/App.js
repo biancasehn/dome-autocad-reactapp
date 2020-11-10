@@ -3,23 +3,33 @@ import './App.css';
 import Grid from './components/Grid'
 import Button from './components/Button'
 
+import logo from './logo.png'
+import autodesk from './autodesk.jpeg'
+import pcImage from './pc.png'
+import casa from './casa.png'
+
 function App() {
   return (
     <div className="container">
       <main className="main">
         <div className="hero">
+          <img alt="logo" src={logo} />
           <h1 className="title">
-            Aprenda a dominar o AutoCAD em 2 horas
+          Dominando o AutoCAD
           </h1>
-          <p className="description">
-            Conheça o passo a passo para dominar o AutoCAD mesmo sem nunca ter usado antes. 
-            Comece a criar os seus próprios projetos e modelos ainda HOJE!        
-          </p>
-          <Button text={'QUERO ME INSCREVER - Por apenas R$ 29,90'} /> 
+          <h2 className="subtitle">
+          Seja capaz de desenvolver qualquer tipo de projeto no AutoCAD em um curso de 2 horas!
+          </h2>
+          <Button text={'QUERO ME INSCREVER - Por apenas R$ 24,90'} /> 
+        </div>
+
+        <div className="section description" style={{backgroundColor:"#cacaca", color:"#232323"}}>
+          <h4>Conheça o passo a passo para dominar o AutoCAD mesmo sem nunca ter usado antes. Comece a criar os seus próprios projetos e modelos ainda HOJE!</h4>
+          <img alt="casa" src={casa} />
         </div>
 
         <div className="section colSection">
-          <img alt="autodesk" src="https://mcusercontent.com/2768e8bfd484e53164a362fc1/images/dfac3f22-8089-4ab1-b758-d318133c4e15.jpeg"></img>
+          <img alt="autodesk" src={autodesk} />
           <p><strong>AutoCAD já é a matéria básica e essencial para todo Engenheiro e Arquiteto. 
             Dominar esse software e começar a usar o quanto antes suas ferramentas o colocará um passo à frente do você de ontem.
             </strong>
@@ -32,8 +42,8 @@ function App() {
           </p>
         </div>
 
-        <div  style={{backgroundColor:"#8dbcc0"}}>
-          <div className=" section section2">
+        <div style={{backgroundColor:"#9c2e38", color:"#fff"}}>
+          <div className="section section2">
               <p className="titleSection"><strong>O que torna este Curso um diferencial?</strong></p>
           </div>
           <Grid />
@@ -57,14 +67,14 @@ function App() {
           <Button text={'Matricule-se!'} /> 
         </div>
 
-        <div className="section section2" style={{backgroundColor:"#8dbcc0"}}>
+        <div className="section section2" style={{backgroundColor:"#9c2e38", color:"#fff"}}>
           <p className="titleSection"><strong>Benefícios</strong></p>
           <p>Colocará em prática de forma rápida todo o conhecimento adquirido, melhorando sua habilidade de manuseio e técnicas de elaboração de projeto</p>
           <p>Contará com o suporte da equipe desenvolvedora para qualquer eventual dúvida</p>
           <p>Estudar e praticar de qualquer lugar dentro do seu horário e rotina</p>
           <p>Curso disponível por tempo ilimitado sempre que precisar rever as aulas</p>
           <span style={{textAlign: "center"}}>
-            <img alt='pc' src="https://mcusercontent.com/2768e8bfd484e53164a362fc1/images/9b50e1c5-1a52-4e90-8890-70e59381145e.png"></img>
+            <img alt='pc' src={pcImage} />
           </span> <br></br>
         </div>
 
@@ -75,21 +85,14 @@ function App() {
         </div>
 
         </main>
-{/* 
-        <div className="socialmedia">
-            <a href="https://www.facebook.com/juliano.veronese" className="facebook">
-                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-facebook-96.png" alt="Facebook" width="100%" style={{maxWidth: "48px", display: "block", webkit:"border-box", border: "0" , height: "auto", outline: "none", textDecoration: "none"}} />
-            </a>
-            <a href="http://www.twitter.com/" className="twitter">
-                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-twitter-96.png" alt="Twitter" width="100%" style={{maxWidth: "48px", display: "block", webkit:"border-box", border: "0" , height: "auto", outline: "none", textDecoration: "none"}} />
-            </a>
-            <a href="http://www.twitter.com/" className="instagram">
-                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-instagram-96.png" alt="Twitter" width="100%" style={{maxWidth: "48px", display: "block", webkit:"border-box", border: "0" , height: "auto", outline: "none", textDecoration: "none"}} />
-            </a>
-        </div> */}
 
         <footer className="footer">
-          <br></br>
+          <p>Contato:</p>
+          <div className="socialmedia">
+            <a href="https://www.instagram.com/dominandoautocad/" target="_blank" className="instagram">
+                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-instagram-96.png" alt="instagram" width="100%" style={{maxWidth: "48px", display: "block", webkit:"border-box", border: "0" , height: "auto", outline: "none", textDecoration: "none"}} />
+            </a>
+          </div>
         </footer>
     </div>
   );

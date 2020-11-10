@@ -18,3 +18,33 @@
     grid-template-columns: 80%;
   }
 }
+
+.card {
+  margin: .7rem;
+  font-size: 1.25rem;
+  /* flex-basis: 20%; */
+  padding: 1.2rem;
+  text-align: left;
+  border: 1px solid #eaeaea;
+  min-width: 200px;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  border-color: black;
+}
+
+@media(max-width:905px) {
+  .card {
+    font-size: 1.2rem;
+    padding: .8rem;
+  }
+}
+@media(max-width:750px) {
+  .card {
+    font-size: 1rem;
+  }
+}
