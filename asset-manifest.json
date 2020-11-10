@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/domine-autocad-reactapp/static/css/main.ea78548f.chunk.css",
-    "main.js": "/domine-autocad-reactapp/static/js/main.f68a32ee.chunk.js",
-    "main.js.map": "/domine-autocad-reactapp/static/js/main.f68a32ee.chunk.js.map",
+    "main.css": "/domine-autocad-reactapp/static/css/main.d971629d.chunk.css",
+    "main.js": "/domine-autocad-reactapp/static/js/main.56f3ec99.chunk.js",
+    "main.js.map": "/domine-autocad-reactapp/static/js/main.56f3ec99.chunk.js.map",
     "runtime-main.js": "/domine-autocad-reactapp/static/js/runtime-main.4084709f.js",
     "runtime-main.js.map": "/domine-autocad-reactapp/static/js/runtime-main.4084709f.js.map",
     "static/js/2.e5dcf169.chunk.js": "/domine-autocad-reactapp/static/js/2.e5dcf169.chunk.js",
     "static/js/2.e5dcf169.chunk.js.map": "/domine-autocad-reactapp/static/js/2.e5dcf169.chunk.js.map",
     "index.html": "/domine-autocad-reactapp/index.html",
-    "precache-manifest.d40e9b6ac455cc03585c8d0886bda178.js": "/domine-autocad-reactapp/precache-manifest.d40e9b6ac455cc03585c8d0886bda178.js",
+    "precache-manifest.f206bc6d642f022d4a18170b7fea0867.js": "/domine-autocad-reactapp/precache-manifest.f206bc6d642f022d4a18170b7fea0867.js",
     "service-worker.js": "/domine-autocad-reactapp/service-worker.js",
-    "static/css/main.ea78548f.chunk.css.map": "/domine-autocad-reactapp/static/css/main.ea78548f.chunk.css.map",
+    "static/css/main.d971629d.chunk.css.map": "/domine-autocad-reactapp/static/css/main.d971629d.chunk.css.map",
     "static/js/2.e5dcf169.chunk.js.LICENSE.txt": "/domine-autocad-reactapp/static/js/2.e5dcf169.chunk.js.LICENSE.txt",
     "static/media/autodesk.jpeg": "/domine-autocad-reactapp/static/media/autodesk.b6242858.jpeg",
     "static/media/casa.png": "/domine-autocad-reactapp/static/media/casa.2b69fde3.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.4084709f.js",
     "static/js/2.e5dcf169.chunk.js",
-    "static/css/main.ea78548f.chunk.css",
-    "static/js/main.f68a32ee.chunk.js"
+    "static/css/main.d971629d.chunk.css",
+    "static/js/main.56f3ec99.chunk.js"
   ]
 }

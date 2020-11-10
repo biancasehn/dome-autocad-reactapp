@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/domine-autocad-reactapp/precache-manifest.d40e9b6ac455cc03585c8d0886bda178.js"
+  "/domine-autocad-reactapp/precache-manifest.f206bc6d642f022d4a18170b7fea0867.js"
 );
 
 self.addEventListener('message', (event) => {
