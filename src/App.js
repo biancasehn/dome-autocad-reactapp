@@ -95,7 +95,7 @@ function App() {
           </div>
         </footer>
         <div className="privacy">
-            <span>dominandoAutoCAD</span>
+            <span>DominandoAutoCAD</span>
             <img alt="logo" src={logo} />
         </div>
     </div>
