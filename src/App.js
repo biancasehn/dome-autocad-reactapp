@@ -5,6 +5,7 @@ import Button from './components/Button'
 
 import logo from './logo.png'
 import autodesk from './autodesk.jpeg'
+import feedback from './feedback.png'
 import pcImage from './pc.png'
 import casa from './casa.png'
 
@@ -17,10 +18,12 @@ function App() {
           <h1 className="title">
           Dominando o AutoCAD
           </h1>
+          <h2 className="info">CURSO PARA INICIANTES</h2>
+          <Button text={'QUERO ME INSCREVER - Por apenas R$ 24,90'} /> 
+
           <h2 className="subtitle">
           Seja capaz de desenvolver qualquer tipo de projeto no AutoCAD em um curso de 2 horas!
           </h2>
-          <Button text={'QUERO ME INSCREVER - Por apenas R$ 24,90'} /> 
         </div>
 
         <div className="section description" style={{backgroundColor:"#cacaca", color:"#232323"}}>
@@ -48,7 +51,10 @@ function App() {
           </div>
           <Grid />
         </div>
-            
+        <div className="section description" style={{backgroundColor:"#faddc4", color:"#232323"}}>
+          <p className="titleSection"><strong>Feedback do nosso primeiro aluno...</strong></p>
+          <img className="feedback" alt="feedback" src={feedback} />
+        </div>
         <div className="section section2">
           <p className="titleSection"><strong>Ao inscrever-se no Curso:</strong></p>
           <p><strong>1. Familiarizando-se com a interface do software</strong><br></br>
@@ -91,6 +97,9 @@ function App() {
           <div className="socialmedia">
             <a href="https://www.instagram.com/dominandoautocad/" target="_blank" className="instagram">
                 <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-instagram-96.png" alt="instagram" width="100%" style={{maxWidth: "48px", display: "block", webkit:"border-box", border: "0" , height: "auto", outline: "none", textDecoration: "none"}} />
+            </a>
+            <a href="https://www.facebook.com/Dominando-Autocad-101928258453112" target="_blank" className="instagram">
+                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-facebook-96.png" alt="instagram" width="100%" style={{maxWidth: "48px", display: "block", webkit:"border-box", border: "0" , height: "auto", outline: "none", textDecoration: "none"}} />
             </a>
           </div>
         </footer>

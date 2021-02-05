@@ -2,27 +2,36 @@
     color:black;
     text-align: center;
     font-weight: 500;
-    font-size: 1.7rem;
-    margin: 1.2em auto;
-    background-color: #FEB472;
+    font-size: 1.6rem;
+    margin: .5em auto;
+    background-color: #f89b4a;
+    border: .5px rgb(63, 61, 61) solid;
     padding:0.5em 1.2em;
     border-radius:.5em;
     transition: all 0.3s;
+    max-width: 500px
   }
   
   .btn:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
+    box-shadow: 0 0 5px rgb(146, 141, 141);
   }
 
-  @media(max-width:630px) {
+  @media(max-width:860px) {
     .btn {
-      font-size: 1.3em;
+      font-size: 1.2em;
+    }
+  }
+
+  @media(max-width:680px) {
+    .btn {
+      font-size: 1.1em;
     }
   }
 
   @media(max-width:500px) {
     .btn {
-      font-size: 1.1em;
+      font-size: 1em;
     }
   }
 
